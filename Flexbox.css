@@ -1,0 +1,107 @@
+.Flexbox-1 {
+    display: flex;/*This window puts the items together by default*/
+}
+
+.Flexbox-2 {
+    display: flex;
+    flex-direction: column;/*With flex direction, we can change the way the screen is displayed. The default mode is row, which means it places the elements horizontally. If you set it equal to the column, it places it vertically*/
+}
+
+.Flexbox-3 {
+    display: flex;
+    justify-content: center;/*By default, the property of JustiFi Continent has the value of flex start, if we change this to center, it will place it at the vertical top in the middle.*/
+}
+
+.Flexbox-4 {
+    display: flex;
+    justify-content: flex-end;/*If we place Justify content against Felix end, it will place everything at the top of the vertical, at the end, that is, on the right side.*/
+}
+
+.Flexbox-5 {
+    display: flex;
+    justify-content: space-between;/*If we set Justify Content to Space Between, it will place two of the three items on the right and left sides and the next item in the middle.*/
+}
+
+.Flexbox-6 {
+    display: flex;
+    justify-content: space-around;/*If we place the content justification against the space around, it will create an empty space behind the element*/
+}
+
+.Flexbox-7 {
+    display: flex;
+    justify-content: space-evenly;/*If we put Justify Content against Space evenly Creates an empty space from the back and front of the element*/
+
+}
+
+.Flexbox-8 {
+    display: flex;
+    align-items: center;/*the alignitem in the row with the horizontal tip of the head is the amount of دیفالتش stretch that does not change and if we change the value to the center , the item is in the middle*/
+}
+
+
+.Flexbox-9 {
+    display: flex;
+
+}
+
+.div-1 {
+    flex: 1;
+
+}
+
+.div-2 {
+    flex: 2;/*flex : 1 , let 's give each house a house , given that for the rest of the item is set to a few , for example , if both are 1 , it can split the entire page .*/
+}
+
+.Flexbox-10 {
+    display: flex;
+
+}
+
+.div-3 {
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 0;
+
+}
+
+.div-4 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}/*In fact, flex: 1 is equal to the above values, flex-grow says if we have more space, divide it equally, which is related to the value we set, flex shrink says, if you have less space, divide it equally, flex basis if If everyone has enough space, he will allocate the same amount to everyone*/
+
+.Flexbox-11 {
+    align-self: flex-start;
+}
+
+.Flexbox-12 {
+    align-self: center;
+}
+
+.Flexbox-13 {
+    align-self: flex-end;
+}/*align-self moves the items in their own place to different parts (top, middle, bottom) which fits the top three items like a staircase.*/
+
+.Flexbox-14 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;/*Flex Warp will apply the value we specified, that is, for each of them, if it is 300 pixels, it will display the same, and if there is no space, it will display the rest in the next line, and its default value is NoWarp.*/
+    gap: 20px;
+}
+
+.Flexbox-15{
+    display: flex;
+    gap: 20px;
+}
+.div-5 {
+    order: 1;
+
+}
+
+.div-6 {
+    order: 0;
+}
+.div-7{
+    order: -1;
+}/*The order comes and tells us to move our element relative to the rest. The higher the value, the more it will be moved to the last element. They will be moved back with a negative value.*/
